@@ -1,3 +1,4 @@
+/*NAVBAR*/
 .container{
     display: flex;
     align-items: center;
@@ -12,6 +13,10 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
+}
+
+.navbar__logo{
+    padding-right: 2rem;
 }
 
 .navbar__form{
@@ -51,3 +56,42 @@
     background: none;
     border-width: 0.1rem;
 }
+
+
+/*HERO*/
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/Banner.png);
+    height: 22rem;
+    justify-content: flex-end;
+    padding: 0 4rem;
+}
+
+.hero__title{
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.hero__subtitle{
+    font-size: 1.375rem;
+    padding: 1.25rem 0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn__consolas{
+    width: 7.5rem;
+    height: 2.5rem;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-width: 0.1rem;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+/* PRODUCTOS */
