@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--CSS-->
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bases.css">
+    <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
@@ -29,21 +30,20 @@
     <header>
         <nav class="navbar">
             <div class="container">
-                <div class="navbar__logo">
-                    <a href=""><img src="assets/img/Logo.png" alt="logo" class="logo"></a>
+                <div class="container__logo-y-barrabusqueda">
+                    <div class="navbar__logo">
+                        <a href=""><img src="assets/img/Logo.png" alt="logo" class="logo"></a>
+                    </div>
+                    <div class="navbar__barra-busqueda">
+                        <form action="" class="navbar__form">
+                            <input class="input" type="text" placeholder="¿Qué deseas buscar?" data-type="search">
+                            <button class="btn__search" type="submit">
+                                <img src="assets/img/Vector.png" alt="lupita">   
+                            </button>
+                        </form>
+                    </div>
                 </div>
-                <div class="navbar__barra-busqueda">
-                    <form action="" class="navbar__form">
-                        <input class="input" type="text" placeholder="¿Qué deseas buscar?" data-type="search">
-                        <label class="input__label" for=""></label>
-                        <button class="btn__search" type="submit">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-                <div class="btn__container">
-                    <button class="btn__login">Login</button>
-                </div>
+                <button class="btn__login">Login</button>
             </div>
         </nav>
     </header>

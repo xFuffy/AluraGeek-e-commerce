@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 4rem;
+}
+
+.container__logo-y-barrabusqueda{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar__form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.navbar__barra-busqueda{
+    border-style: solid;
+    border-width: 0.10rem;
+    width: 65%;
+    border-radius: 2rem;
+    background: #F5F5F5
+}
+
+.input{
+    width: 100%;
+    height: 2rem;
+    border-style: none;
+    background: #F5F5F5
+}
+
+.btn__search{
+    border: none;
+    background: #F5F5F5;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.btn__login{
+    width: 8rem;
+    height: 3rem;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    background: none;
+    border-width: 0.1rem;
+}
