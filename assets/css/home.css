@@ -8,15 +8,15 @@
 }
 
 .container__logo-y-barrabusqueda{
-    width: 55%;
+    width: 60%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
 .navbar__logo{
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 .navbar__form{
@@ -137,6 +137,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-weight: 600;
 }
 
 .item__title{
@@ -166,6 +167,14 @@
     padding: 4rem;
     background-color: #EAF2FD;
     height: 23rem;
+}
+
+.logo-list__container{
+    display: inherit;
+}
+
+.footer__logo{
+    padding-right: 2rem;
 }
 
 .list__container{
@@ -236,4 +245,110 @@
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 500;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 1rem 1.5rem;
+    }
+    .container__logo-y-barrabusqueda{
+        width: 60%;
+    }
+    .btn__login{
+        font-size: 1.05rem;
+        font-weight: 500;
+    }
+    .hero__container{
+        padding: 0 1.5rem;
+    }
+    .products__container{
+        padding: 1.5rem;
+    }
+    .products__line{
+        gap: 0.75rem;
+    }
+    .footer__contenido{
+        padding: 1.5rem;
+        align-items: center;
+    }
+    .logo-list__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__logo{
+        padding: 1rem 0;
+    }
+    .list__container{
+        padding-left: 0.5rem;
+    }
+    .footer__contacto{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        padding: 1rem;
+        min-width: 22.5rem;
+    }
+    .navbar__logo{
+        padding-right: 0;
+    }
+    .navbar__form{
+        padding: 0;
+    }
+    .navbar__barra-busqueda{
+        width: auto;
+        height: auto;
+    }
+    .input{
+        display: none;
+    }
+    .btn__search{
+        background-color: #FFFFFF;
+    }
+    .btn__login{
+        font-size: 1.1rem;
+    }
+    .hero__container{
+        padding: 0 1rem;
+        min-width: 22.5rem;
+    }
+    .btn__consolas{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.05rem;
+        font-weight: 500;
+    }
+    .products__container{
+        padding: 0 1rem;
+        min-width: 22.5rem;
+    }
+    .line__vertodo{
+        font-size: 1.05rem;
+    }
+    .footer__contenido{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+        min-width: 22.5rem;
+    }
+    .footer__links{
+        text-align: center;
+    }
+    .footer__contacto{
+        width: 100%;
+        padding: 1rem;
+    }
+    .input-nombre, .input-mensaje{
+        display: flex;
+        width: 100%;
+    }
+    .rodapie__container{
+        min-width: 22.5rem;
+    }
 }
