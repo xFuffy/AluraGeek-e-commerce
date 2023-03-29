@@ -8,7 +8,7 @@
 }
 
 .container__logo-y-barrabusqueda{
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,7 +20,7 @@
 }
 
 .navbar__form{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
@@ -51,119 +51,75 @@
     height: 1.15rem;
 }
 
-.btn__login{
-    width: 8rem;
-    height: 3rem;
-    color: #2A7AE4;
-    border-color: #2A7AE4;
-    background: none;
-    border-width: 0.1rem;
-    font-family: 'Raleway', sans-serif;
-    transition: all 0.5s ease-in-out;
+/*LOG IN*/
+.login{
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
-.btn__login:hover{
-    cursor: pointer;
-    background-color: #2A7AE4;
-    color: #FFFFFF;
-}
-
-/*HERO*/
-.hero__container{
+.login__container{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/Banner.png);
-    height: 22rem;
-    justify-content: flex-end;
-    padding: 0 4rem;
-}
-
-.hero__title{
-    font-size: 3.125rem;
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-.hero__subtitle{
-    font-size: 1.375rem;
-    padding: 1.25rem 0;
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-.btn__consolas{
-    display: flex;
+    background:#E5E5E5;
+    width: 60%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 7.5rem;
-    height: 2.5rem;
-    background-color: #2A7AE4;
-    border: none;
-    color: #FFFFFF;
-    margin-bottom: 1.5rem;
-    font-size: 0.875rem;
-    font-weight: 400;
+    padding: 5rem;
+    flex-direction: column;
+}
+
+.login__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.formulario{
+    width: 100%;
+}
+
+.user__input{
+    width: 100%;
+    height: 4rem;
     font-family: 'Raleway', sans-serif;
+    border-style: none;
+    outline: none;
+    padding: 0 1rem;
 }
 
-
-/* PRODUCTOS */
-.products__container{
-    padding: 4.5rem;
-}
-
-.products__line{
+.email__input{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    gap: 1rem;
-    padding: 2.5rem 0;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    border-style: none;
+    outline: none;
+    padding: 0 1rem;
 }
 
-.line__info{
+.password__input{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-style: none;
+    padding: 0 1rem;
 }
 
-.line__title{
-    color: #464646;
-    font-size: 2rem;
-    font-weight: bold;
+.btn__entrar{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border-style: none;
+    height: 3.5rem;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
-
-.line__vertodo{
-    height: 100%;
-    color: #2A7AE4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: 600;
-}
-
-.item__title{
-    font-size: 0.875rem;
-    padding: 0.35rem 0;
-}
-
-.item__price{
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.35rem 0;
-}
-
-.item__description{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #2A7AE4;
-    padding: 0.35rem 0;
-}
-
 
 /*FOOTER*/
 .footer__contenido{
@@ -257,28 +213,14 @@
 }
 
 
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 768px) {
-    .container{
-        padding: 1rem 1.5rem;
+    .login__container{
+        min-width: 22.5rem;
     }
-    .container__logo-y-barrabusqueda{
-        width: 60%;
-    }
-    .btn__login{
-        font-size: 1.05rem;
-        font-weight: 500;
-    }
-    .hero__container{
-        padding: 0 1.5rem;
-    }
-    .products__container{
-        padding: 1.5rem;
-    }
-    .products__line{
-        gap: 0.75rem;
-    }
+
     .footer__contenido{
         padding: 1.5rem;
         align-items: center;
@@ -309,6 +251,11 @@
     .navbar__form{
         padding: 0;
     }
+    .container__logo-y-barrabusqueda{
+        width: 100%;
+        padding: 0 1rem;
+        justify-content: space-between;
+    }
     .navbar__barra-busqueda{
         width: auto;
         height: auto;
@@ -319,26 +266,8 @@
     .btn__search{
         background-color: #FFFFFF;
     }
-    .btn__login{
-        font-size: 1.1rem;
-    }
-    .hero__container{
-        padding: 0 1rem;
-        min-width: 22.5rem;
-    }
-    .btn__consolas{
-        width: 8rem;
-        height: 3rem;
-        font-size: 1.05rem;
-        font-weight: 500;
-    }
-    .products__container{
-        padding: 0 1rem;
-        min-width: 22.5rem;
-    }
-    .line__vertodo{
-        font-size: 1.05rem;
-    }
+
+
     .footer__contenido{
         flex-direction: column;
         align-items: center;

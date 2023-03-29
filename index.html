@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
     <!--CSS-->
+    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/bases.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
 
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
 
+
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>AluraGeek - Login</title>
 
-
-    <title>AluraGeek - Home</title>
 
 
 </head>
@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="container__logo-y-barrabusqueda">
                     <div class="navbar__logo">
-                        <a href="index.html"><img src="assets/img/Logo.png" alt="logo" class="logo"></a>
+                        <a href=""><img src="assets/img/Logo.png" alt="logo" class="logo"></a>
                     </div>
                     <div class="navbar__barra-busqueda">
                         <form action="" class="navbar__form">
@@ -43,294 +43,27 @@
                         </form>
                     </div>
                 </div>
-                <a href="screens/login.html">
-                    <button class="btn__login">Login</button>
-                </a>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero__container">
-                <div class="hero__title">
-                    <h1>Abril Promocional</p>
+    <section class="login">
+        <div class="login__container">
+            <h3 class="login__title">Iniciar Sesión</h3>
+            <form action="" method="" class="formulario">
+                <div class="input__container">
+                    <input name="user" id="user" placeholder="Escriba su nombre de usuario" type="text" data-type="user" class="user__input" required>
                 </div>
-                <div class="hero__subtitle">
-                    <h3>Productos seleccionados con 33% de descuento</h3>   
+                <div class="input__container">
+                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" data-type="password" class="password__input" required>
                 </div>
-                <a class="btn__consolas" href="">Ver consolas</a>
-            </div>
-        </section>
-
-        <section class="products">
-            <div class="products__container">
-                <div class="products__line">
-                    <div class="line__info">
-                        <div class="line__title">
-                            <h2>Star Wars</h2>
-                        </div>
-                        <a href="">
-                            <div class="line__vertodo">Ver todo
-                                <box-icon name='right-arrow-alt' color='#2a7ae4' ></box-icon>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/1.png" alt="first_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Taza Stormtroopers</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/2.png" alt="second_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Mini Darth Vader</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/3.png" alt="third_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Figura de Mini Yoda</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/4.png" alt="fourth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Figura de Stormtroopers</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/5.png" alt="fifth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Baby Yoda</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/first-row/6.png" alt="sixth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Figura de Kylo</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="products__line">
-                    <div class="line__info">
-                        <div class="line__title">Consolas</div>
-                        <a href="">
-                            <div class="line__vertodo">Ver todo
-                                <box-icon name='right-arrow-alt' color='#2a7ae4' ></box-icon>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/1.png" alt="first_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Mando de Xbox Series X</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/2.png" alt="second_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Consola y mando PS5</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/3.png" alt="third_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Consola Nintendo NES</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/4.png" alt="fourth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Mandos de Nintendo Switch</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/5.png" alt="fifth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Consola Xbox Series X</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/second-row/6.png" alt="sixth_product" class="line__img">
-                        </div>
-                        <div class="item__title">
-                            <p>Game Boy color</p>
-                        </div>
-                        <div class="item__price">
-                            <p>$60,00</p>
-                        </div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="products__line">
-                    <div class="line__info">
-                        <div class="line__title">Diversos</div>
-                        <a href="">
-                            <div class="line__vertodo">Ver todo
-                                <box-icon name='right-arrow-alt' color='#2a7ae4' ></box-icon>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/1.png" alt="first_product" class="line__img">
-                        </div>
-                        <div class="item__title">Remera Atari</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/2.png" alt="second_product" class="line__img">
-                        </div>
-                        <div class="item__title">Remera SNES</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/3.png" alt="third_product" class="line__img">
-                        </div>
-                        <div class="item__title">Muñeco de Sonic</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/4.png" alt="fourth_product" class="line__img">
-                        </div>
-                        <div class="item__title">Reloj despertador</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/5.png" alt="fifth_product" class="line__img">
-                        </div>
-                        <div class="item__title">Lentes de Realidad Virtual</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                    <div class="line__item">
-                        <div class="line-img__container">
-                            <img src="assets/img/products/third-row/6.png" alt="sixth_product" class="line__img">
-                        </div>
-                        <div class="item__title">Peluche de Píkachu</div>
-                        <div class="item__price">$60,00</div>
-                        <a href="">
-                            <div class="item__description">Ver producto</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
+                <button class="btn__entrar">Entrar</button> 
+            </form>
+        </div>
+        <div class="signup__container">
+            <p class="signup__info">¿Todavia no tenes cuenta? Presiona <a href="screens/signup.html">aquí</a> para poder registrate gratis</p>
+        </div>
+    </section>
 
     <footer>
         <div class="footer__container">
@@ -380,6 +113,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!--JS-->
-    <script src=""></script>
+    
+
 </body>
 </html>
