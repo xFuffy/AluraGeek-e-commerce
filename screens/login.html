@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/bases.css">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>AluraGeek - Login</title>
+
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="container__logo-y-barrabusqueda">
+                    <div class="navbar__logo">
+                        <a href="../index.html"><img src="../assets/img/Logo.png" alt="logo" class="logo"></a>
+                    </div>
+                    <div class="navbar__barra-busqueda">
+                        <form action="" class="navbar__form">
+                            <input class="input" type="text" placeholder="¿Qué deseas buscar?" data-type="search">
+                            <button class="btn__search" type="submit">
+                                <img src="../assets/img/Vector.png" alt="lupita">   
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="login">
+        <div class="login__container">
+            <h3 class="login__title">Iniciar Sesión</h3>
+            <form action="" class="formulario">
+                <div class="input__container">
+                    <input name="email" id="email" placeholder="Escriba su correo electrónico" type="email" required data-type="email" class="email__input">
+                </div>
+                <div class="input__container">
+                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" required data-type="password" class="password__input">
+                </div>      
+            </form>
+            <button class="btn__entrar">Entrar</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__contenido">
+                <div class="logo-list__container">
+                    <div class="footer__logo">
+                        <img src="../assets/img/Logo.png" alt="logo" class="footer__logo-img">
+                    </div>
+                    <div class="footer__links">
+                        <ul class="list__container">
+                            <li class="list__item">Quienes somos</li>
+                            <li class="list__item">Política de privacidad</li>
+                            <li class="list__item">Programa de fidelidad</li>
+                            <li class="list__item">Nuestras Tiendas</li>
+                            <li class="list__item">Quiero ser franquiciado</li>
+                            <li class="list__item">Anúncie aqui</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__contacto">
+                    <div class="contacto__title">
+                        <p>Hable con nosotros</p>
+                    </div>
+                    <div class="contacto__content">
+                        <form action="">
+                            <fieldset>
+                                <div class="input__container">
+                                    <input class="input input-nombre" type="text" placeholder="Nombre" data-type="nombre">
+                                </div>
+                                <div class="input__container">
+                                    <textarea class="input input-mensaje" type="text" placeholder="Escribe tu mensaje" data-type="mensaje"></textarea>
+                                </div>
+                            </fieldset>
+                            <button class="btn__enviarmsj">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rodapie__container">
+            <p class="rodapie__content">Desarrollado por Ezequiel Fernández Cariaga</p>
+            <p class="rodapie__content">2023</p>
+        </div>
+    </footer>
+
+    <!--BOX ICON-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!--JS-->
+    
+
+</body>
+</html>
