@@ -8,7 +8,7 @@
 }
 
 .container__logo-y-barrabusqueda{
-    width: 80%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,7 +20,7 @@
 }
 
 .navbar__form{
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
@@ -51,8 +51,9 @@
     height: 1.15rem;
 }
 
+/*AGREGAR PRODUCTO*/
 /*LOG IN*/
-.login{
+.agregarProducto{
     background: #E5E5E5;
     display: flex;
     justify-content: center;
@@ -61,7 +62,7 @@
     align-items: center;
 }
 
-.login__container{
+.agregarProducto__container{
     display: flex;
     flex-direction: column;
     background:#E5E5E5;
@@ -73,7 +74,7 @@
     flex-direction: column;
 }
 
-.login__title{
+.agregarProducto__title{
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: 2rem;
@@ -83,7 +84,7 @@
     width: 100%;
 }
 
-.user__input{
+.url__input{
     width: 100%;
     height: 4rem;
     font-family: 'Raleway', sans-serif;
@@ -92,7 +93,7 @@
     padding: 0 1rem;
 }
 
-.email__input{
+.categoria__input{
     width: 100%;
     height: 4rem;
     font-family: 'Raleway', sans-serif;
@@ -101,7 +102,7 @@
     padding: 0 1rem;
 }
 
-.password__input{
+.nombre-prod__input{
     width: 100%;
     height: 4rem;
     font-family: 'Raleway', sans-serif;
@@ -110,7 +111,31 @@
     padding: 0 1rem;
 }
 
-.btn__entrar{
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.precio__input{
+    width: 100%;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-style: none;
+    padding: 0 1rem;
+}
+
+.descripcion__input{
+    width: 100%;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-style: none;
+    padding: 0 1rem;
+}
+
+.btn__agregarProducto{
     background-color: #2A7AE4;
     color: #FFFFFF;
     border-style: none;
@@ -120,6 +145,8 @@
     font-size: 1.2rem;
     cursor: pointer;
 }
+
+
 
 /*FOOTER*/
 .footer__contenido{
@@ -213,14 +240,18 @@
 }
 
 
-
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 768px) {
-    .login__container{
+    .agregarProducto__container{
         min-width: 22.5rem;
     }
-    .footer__contenido{
+    .container{
+        padding: 1rem 1.5rem;
+    }
+    .container__logo-y-barrabusqueda{
+        width: 60%;
+    }.footer__contenido{
         padding: 1.5rem;
         align-items: center;
     }
@@ -250,11 +281,6 @@
     .navbar__form{
         padding: 0;
     }
-    .container__logo-y-barrabusqueda{
-        width: 100%;
-        padding: 0 1rem;
-        justify-content: space-between;
-    }
     .navbar__barra-busqueda{
         width: auto;
         height: auto;
@@ -264,8 +290,7 @@
     }
     .btn__search{
         background-color: #FFFFFF;
-    }
-    .footer__contenido{
+    }.footer__contenido{
         flex-direction: column;
         align-items: center;
         height: auto;
