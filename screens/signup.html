@@ -50,21 +50,21 @@
     <section class="login">
         <div class="login__container">
             <h3 class="login__title">Registrarse</h3>
-            <form action="" method="" class="formulario">
+            <form action="" method="" class="formulario" data-form>
                 <div class="input__container">
-                    <input name="user" id="user" placeholder="Escriba su nombre de usuario" type="text" data-type="user" class="user__input" required>
+                    <input name="user" id="user" placeholder="Escriba su nombre de usuario" type="text" data-user class="user__input" required>
                 </div>
                 <div class="input__container">
-                    <input name="email" id="email" placeholder="Escriba su correo electrónico" type="email" data-type="email" class="email__input" required>
+                    <input name="email" id="email" placeholder="Escriba su correo electrónico" type="email" data-email class="email__input" required>
                 </div>
                 <div class="input__container">
-                    <input name="email" id="re-email" placeholder="Confirme su correo electrónico" type="email" data-type="re-email" class="email__input" required>
+                    <input name="email" id="re-email" placeholder="Confirme su correo electrónico" type="email" data-re_email class="email__input" required>
                 </div>
                 <div class="input__container">
-                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" data-type="password" class="password__input" required>
+                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" data-password class="password__input" required>
                 </div>  
                 <div class="input__container">
-                    <input name="password" id="re-password" placeholder="Confirme su contraseña" type="password" data-type="re-password" class="password__input" required>
+                    <input name="password" id="re-password" placeholder="Confirme su contraseña" type="password" data-re_password class="password__input" required>
                 </div>
                 <button class="btn__entrar">Registrarse</button> 
             </form>
@@ -120,7 +120,8 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!--JS-->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/signup-controller.js"></script>
 
 </body>
 </html>

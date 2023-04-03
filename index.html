@@ -50,14 +50,14 @@
     <section class="login">
         <div class="login__container">
             <h3 class="login__title">Iniciar Sesión</h3>
-            <form action="" method="" class="formulario">
+            <form action="" method="" class="formulario__login" data-form>
                 <div class="input__container">
-                    <input name="user" id="user" placeholder="Escriba su nombre de usuario" type="text" data-type="user" class="user__input" required>
+                    <input name="user" id="user" placeholder="Escriba su nombre de usuario" type="text" data-user class="user__input" required>
                 </div>
                 <div class="input__container">
-                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" data-type="password" class="password__input" required>
+                    <input name="password" id="password" placeholder="Escriba su contraseña" type="password" data-password class="password__input" required>
                 </div>
-                <button class="btn__entrar">Entrar</button> 
+                <button class="btn__entrar" type="submit">Entrar</button> 
             </form>
         </div>
         <div class="signup__container">
@@ -91,10 +91,10 @@
                         <form action="">
                             <fieldset>
                                 <div class="input__container">
-                                    <input class="input input-nombre" type="text" placeholder="Nombre" data-type="nombre" required>
+                                    <input class="input input-nombre" type="text" placeholder="Nombre" data-nombre" required>
                                 </div>
                                 <div class="input__container">
-                                    <textarea class="input input-mensaje" type="text" placeholder="Escribe tu mensaje" data-type="mensaje" required></textarea>
+                                    <textarea class="input input-mensaje" type="text" placeholder="Escribe tu mensaje" data-mensaje required></textarea>
                                 </div>
                                 <button class="btn__enviarmsj">Enviar mensaje</button>
                             </fieldset>
@@ -114,7 +114,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!--JS-->
-    
+    <script type="module" src="controllers/login-controller.js"></script>    
 
 </body>
 </html>

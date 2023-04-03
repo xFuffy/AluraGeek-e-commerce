@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "name": "Ezequiel Fernandez Cariaga",
+      "email": "admin@admin.com",
+      "id": 1,
+      "password": "admin"
+    }
+  ]
+}

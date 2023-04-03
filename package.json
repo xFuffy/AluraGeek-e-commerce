@@ -1,0 +1,19 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Challenge de e-commerce - Alura Latam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFuffy/AluraGeek-e-commerce.git"
+  },
+  "author": "Ezequiel Fernández Cariaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xFuffy/AluraGeek-e-commerce/issues"
+  },
+  "homepage": "https://github.com/xFuffy/AluraGeek-e-commerce#readme"
+}
