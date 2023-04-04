@@ -8,12 +8,15 @@
 
 //Fetch API
 
-const obtenerUsuario = () => fetch("http://localhost:3000/users").then(respuesta => respuesta.json());
+const obtenerUsuario = async () => await fetch("http://localhost:3000/users").then(respuesta => respuesta.json());
 
-const listaUsuarios = () => fetch("http://http://localhost:3000/users").then(respuesta => respuesta.json());
+const detalleUsuario = async (id) => {
+    const respuesta = await fetch(`http://localhost:3000/users/${id}`);
+    return await respuesta.json();
+}
 
-const crearUsuario = (usuario, nombre, email, contraseña) => {
-    return fetch("http://localhost:3000/users", {
+const crearUsuario = async (usuario, nombre, email, contraseña) => {
+    return await fetch("http://localhost:3000/users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -25,6 +28,6 @@ const crearUsuario = (usuario, nombre, email, contraseña) => {
 
 export const userServices = {
     obtenerUsuario,
-    listaUsuarios,
+    detalleUsuario,
     crearUsuario
 }
