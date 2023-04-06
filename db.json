@@ -7,5 +7,151 @@
       "id": 1,
       "password": "admin"
     }
-  ]
+  ],
+  "productos": [
+    {
+        "id": "1",
+        "nombre": "Taza Stromtroopers",
+        "categoria": "star wars",
+        "url": "https://d3ugyf2ht6aenh.cloudfront.net/stores/806/999/products/taza-stormtrooper-11-005e35b4bb3f6ee0ad16782136984894-640-0.webp",
+        "precio": 60,
+        "descripcion": "Taza de Star Wars"
+    },
+    {
+      "id": "2",
+      "nombre": "Mini Darth Vader",
+      "categoria": "star wars",
+      "url": "https://byjasco.com/media/catalog/product/cache/dc898694ecf61203e31cc99a546c70ec/4/4/44607.ep.01.jpg",
+      "precio": 60,
+      "descripcion": "Figura coleccionable de Darth Vader"
+  },
+  {
+    "id": "3",
+    "nombre": "Mini Yoda",
+    "categoria": "star wars",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_969225-MLA44164944012_112020-O.webp",
+    "precio": 60,
+    "descripcion": "Figura coleccionable de Yoda"
+  },
+  {
+    "id": "4",
+    "nombre": "Stromtroopers",
+    "categoria": "star wars",
+    "url": "https://m.media-amazon.com/images/I/41EwZwUO9mL._UL320_.jpg",
+    "precio": 60,
+    "descripcion": "Figura coleccionable de Stormtroopers"
+  },
+  {
+    "id": "5",
+    "nombre": "Baby Yoda",
+    "categoria": "star wars",
+    "url": "https://tiotomar.vtexassets.com/arquivos/ids/188428-800-800?v=638025034675170000&width=800&height=800&aspect=true",
+    "precio": 60,
+    "descripcion": "Muñeco de Baby Yoda"
+  },
+  {
+    "id": "6",
+    "nombre": "Kylo",
+    "categoria": "star wars",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_996459-MLA40312840545_012020-O.webp",
+    "precio": 60,
+    "descripcion": "Figura coleccionable de Kylo"
+  },
+  {
+    "id": "7",
+    "nombre": "Mando de Xbox Series X",
+    "categoria": "consolas",
+    "url": "https://assets.xboxservices.com/assets/1d/e9/1de988c2-f32f-4434-a541-f9a4b353ee78.jpg?n=Accessories-Hub_Content-Placement-0_2020-Controller-White_788x444.jpg",
+    "precio": 60,
+    "descripcion": "Mando clasico de Xbox Series X color blanco"
+  },
+  {
+    "id": "8",
+    "nombre": "PlayStation 5",
+    "categoria": "consolas",
+    "url": "https://arsonyb2c.vtexassets.com/arquivos/ids/348010/PS5_Dig_DS_B.jpg?v=637363629365300000",
+    "precio": 60,
+    "descripcion": "Consola y mando de PlayStation 5"
+  },
+  {
+    "id": "9",
+    "nombre": "Nintendo NES",
+    "categoria": "consolas",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_703848-MLA32731490464_112019-O.jpg",
+    "precio": 60,
+    "descripcion": "Consola Nintendo NES"
+  },
+  {
+    "id": "10",
+    "nombre": "Nintendo Switch",
+    "categoria": "consolas",
+    "url": "https://assets.mofoprod.net/network/images/m0flft4wqrruycmbhtoa_seutqe_NfArjmq.original.jpg",
+    "precio": 60,
+    "descripcion": "Consola Nintendo Switch"
+  },
+  {
+    "id": "11",
+    "nombre": "Xbox Series X",
+    "categoria": "star wars",
+    "url": "https://i5.walmartimages.com/asr/12870b37-2928-4748-8e87-868e44ed218d.89acba7601d9b7c641d3c880ce173893.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "precio": 60,
+    "descripcion": "Consola Xbox Series X"
+  },
+  {
+    "id": "12",
+    "nombre": "Game Boy color",
+    "categoria": "star wars",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg",
+    "precio": 60,
+    "descripcion": "Consola Game Boy color"
+  },
+  {
+    "id": "13",
+    "nombre": "Remera Atari",
+    "categoria": "diversos",
+    "url": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/245/487/products/muestra-new4-hombre1-c2d40da8dac2d1111416301600152476-640-0.webp",
+    "precio": 60,
+    "descripcion": "Remera de la empresa Atari"
+  },
+  {
+    "id": "14",
+    "nombre": "Remera SNES",
+    "categoria": "diversos",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_638723-MLA53198227429_012023-V.jpg",
+    "precio": 60,
+    "descripcion": "Remera de la consola SNES"
+  },
+  {
+    "id": "15",
+    "nombre": "Muñeco de Sonic",
+    "categoria": "diversos",
+    "url": "http://d3ugyf2ht6aenh.cloudfront.net/stores/016/311/products/sonic-31-607ccdb9e578dc715a16727745509679-640-0.webp",
+    "precio": 60,
+    "descripcion": "Muñeco del personaje Sonic"
+  },
+  {
+    "id": "16",
+    "nombre": "Reloj despertador",
+    "categoria": "diversos",
+    "url": "https://intershop.com.ar/wp-content/uploads/2022/06/digitaldespertador.jpg",
+    "precio": 60,
+    "descripcion": "Reloj despertador"
+  },
+  {
+    "id": "17",
+    "nombre": "Lentes de Realidad Virtual",
+    "categoria": "diversos",
+    "url": "https://gmedia.playstation.com/is/image/SIEPDC/PSVR2-thumbnail-01-en-22feb22?$facebook$",
+    "precio": 60,
+    "descripcion": "Lentes de Realidad Virtual de PlayStation"
+  },
+  {
+    "id": "18",
+    "nombre": "Muñeco de Pikachu",
+    "categoria": "diversos",
+    "url": "http://d3ugyf2ht6aenh.cloudfront.net/stores/806/999/products/whatsapp-image-2021-08-23-at-10-58-211-a7e3b2929d9f1d332516297275176564-640-0.webp",
+    "precio": 60,
+    "descripcion": "Muñeco del famoso personaje Pikachu"
+  }
+]
 }

@@ -6,6 +6,6 @@ if(localStorage.getItem("user")){
     let usuario = JSON.parse(sessionStorage.getItem("user"));
     bienvenida.innerHTML = `¡Bienvenid@ ${usuario.username}!`;
 } else{
-    console.log("no entre al if")
+    console.log("no entre al if");
 }
 
