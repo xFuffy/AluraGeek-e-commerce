@@ -43,10 +43,13 @@ const actualizarProducto = async (nombre, categoria, url, precio, descripcion, i
     }
 };
 
-export const productServices = {                             
+const buscarProducto = async (nombre) => await fetch(`http://localhost:3000/productos?nombre_like=${nombre}`).then(respuesta => respuesta.json()); 
+
+export const productServices = {
     listaProductos,
     obtenerProducto,
     crearProducto,
     eliminarProducto,
     actualizarProducto,
+    buscarProducto,
 }
