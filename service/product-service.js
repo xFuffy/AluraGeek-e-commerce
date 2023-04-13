@@ -8,6 +8,8 @@
 
 //Fetch API
 
+const listaProductos = () => fetch("http://localhost:3000/productos").then(respuesta => respuesta.json()); 
+
 const obtenerProducto = async () => await fetch("http://localhost:3000/productos").then(res => res.json());
 
 const crearProducto = async (nombre, categoria, url, precio, descripcion) => {
@@ -41,9 +43,10 @@ const actualizarProducto = async (nombre, categoria, url, precio, descripcion, i
     }
 };
 
-export const prodcutServices = {                             
+export const productServices = {                             
+    listaProductos,
     obtenerProducto,
     crearProducto,
     eliminarProducto,
-    actualizarProducto
+    actualizarProducto,
 }

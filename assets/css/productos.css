@@ -95,6 +95,24 @@
     background-color: #5e95dd;
 }
 
+.line__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.line-img__container{
+    width: 15rem;
+    height: 15rem;
+}
+
+.line__img{
+    width: 15rem;
+    height: 15rem;
+}
+
 .item__title{
     font-size: 0.875rem;
     padding: 0.35rem 0;

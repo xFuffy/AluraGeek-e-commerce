@@ -92,7 +92,7 @@
   {
     "id": "11",
     "nombre": "Xbox Series X",
-    "categoria": "star wars",
+    "categoria": "consolas",
     "url": "https://i5.walmartimages.com/asr/12870b37-2928-4748-8e87-868e44ed218d.89acba7601d9b7c641d3c880ce173893.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
     "precio": 60,
     "descripcion": "Consola Xbox Series X"
@@ -100,7 +100,7 @@
   {
     "id": "12",
     "nombre": "Game Boy color",
-    "categoria": "star wars",
+    "categoria": "consolas",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg",
     "precio": 60,
     "descripcion": "Consola Game Boy color"
