@@ -18,7 +18,7 @@ const crearProducto = async (nombre, categoria, url, precio, descripcion) => {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({nombre, categoria, url, precio, descripcion, id: uuid.v4() }),
+        body: JSON.stringify({id: uuid.v4(), nombre, categoria, url, precio, descripcion}),
     });
 };
 
@@ -30,7 +30,7 @@ const eliminarProducto = (id) => {
 
 const actualizarProducto = async (nombre, categoria, url, precio, descripcion, id) => {
     try {
-        const respuesta = await fetch(`http://localhost:3000/perfil/${id}`, {
+        const respuesta = await fetch(`http://localhost:3000/productos/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -43,7 +43,9 @@ const actualizarProducto = async (nombre, categoria, url, precio, descripcion, i
     }
 };
 
-const buscarProducto = async (nombre) => await fetch(`http://localhost:3000/productos?nombre_like=${nombre}`).then(respuesta => respuesta.json()); 
+const buscarProducto = async (nombre) => await fetch(`http://localhost:3000/productos?nombre_like=${nombre}`).then(respuesta => respuesta.json());
+
+const detalleProducto = async (id) => await fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json()); 
 
 export const productServices = {
     listaProductos,
@@ -52,4 +54,5 @@ export const productServices = {
     eliminarProducto,
     actualizarProducto,
     buscarProducto,
+    detalleProducto,
 }

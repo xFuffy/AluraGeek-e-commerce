@@ -1,3 +1,9 @@
+.iconos{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
 /*NAVBAR*/
 .container{
     display: flex;
@@ -102,6 +108,7 @@
 
 .btn__agregarProducto:hover{
     background-color: #5e95dd;
+    cursor: pointer;
 }
 
 #icons__container{

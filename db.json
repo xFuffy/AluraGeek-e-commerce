@@ -10,12 +10,12 @@
   ],
   "productos": [
     {
-        "id": "1",
-        "nombre": "Taza Stromtroopers",
-        "categoria": "star wars",
-        "url": "../assets/img/products/first-row/1.png",
-        "precio": 60,
-        "descripcion": "Taza de Star Wars"
+      "id": "1",
+      "nombre": "Taza Stromtroopers",
+      "categoria": "star wars",
+      "url": "../assets/img/products/first-row/1.png",
+      "precio": 60,
+      "descripcion": "Taza de Star Wars"
     },
     {
       "id": "2",
@@ -24,134 +24,134 @@
       "url": "../assets/img/products/first-row/2.png",
       "precio": 60,
       "descripcion": "Figura coleccionable de Darth Vader"
-  },
-  {
-    "id": "3",
-    "nombre": "Mini Yoda",
-    "categoria": "star wars",
-    "url": "../assets/img/products/first-row/3.png",
-    "precio": 60,
-    "descripcion": "Figura coleccionable de Yoda"
-  },
-  {
-    "id": "4",
-    "nombre": "Stromtroopers",
-    "categoria": "star wars",
-    "url": "../assets/img/products/first-row/4.png",
-    "precio": 60,
-    "descripcion": "Figura coleccionable de Stormtroopers"
-  },
-  {
-    "id": "5",
-    "nombre": "Baby Yoda",
-    "categoria": "star wars",
-    "url": "../assets/img/products/first-row/5.png",
-    "precio": 60,
-    "descripcion": "Muñeco de Baby Yoda"
-  },
-  {
-    "id": "6",
-    "nombre": "Kylo",
-    "categoria": "star wars",
-    "url": "../assets/img/products/first-row/6.png",
-    "precio": 60,
-    "descripcion": "Figura coleccionable de Kylo"
-  },
-  {
-    "id": "7",
-    "nombre": "Mando de Xbox Series X",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/1.png",
-    "precio": 60,
-    "descripcion": "Mando clasico de Xbox Series X color blanco"
-  },
-  {
-    "id": "8",
-    "nombre": "PlayStation 5",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/2.png",
-    "precio": 60,
-    "descripcion": "Consola y mando de PlayStation 5"
-  },
-  {
-    "id": "9",
-    "nombre": "Nintendo NES",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/3.png",
-    "precio": 60,
-    "descripcion": "Consola Nintendo NES"
-  },
-  {
-    "id": "10",
-    "nombre": "Nintendo Switch",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/4.png",
-    "precio": 60,
-    "descripcion": "Consola Nintendo Switch"
-  },
-  {
-    "id": "11",
-    "nombre": "Xbox Series X",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/5.png",
-    "precio": 60,
-    "descripcion": "Consola Xbox Series X"
-  },
-  {
-    "id": "12",
-    "nombre": "Game Boy color",
-    "categoria": "consolas",
-    "url": "../assets/img/products/second-row/6.png",
-    "precio": 60,
-    "descripcion": "Consola Game Boy color"
-  },
-  {
-    "id": "13",
-    "nombre": "Remera Atari",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/1.png",
-    "precio": 60,
-    "descripcion": "Remera de la empresa Atari"
-  },
-  {
-    "id": "14",
-    "nombre": "Remera SNES",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/2.png",
-    "precio": 60,
-    "descripcion": "Remera de la consola SNES"
-  },
-  {
-    "id": "15",
-    "nombre": "Muñeco de Sonic",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/3.png",
-    "precio": 60,
-    "descripcion": "Muñeco del personaje Sonic"
-  },
-  {
-    "id": "16",
-    "nombre": "Reloj despertador",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/4.png",
-    "precio": 60,
-    "descripcion": "Reloj despertador"
-  },
-  {
-    "id": "17",
-    "nombre": "Lentes de Realidad Virtual",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/5.png",
-    "precio": 60,
-    "descripcion": "Lentes de Realidad Virtual de PlayStation"
-  },
-  {
-    "id": "18",
-    "nombre": "Muñeco de Pikachu",
-    "categoria": "diversos",
-    "url": "../assets/img/products/third-row/6.png",
-    "precio": 60,
-    "descripcion": "Muñeco del famoso personaje Pikachu"
-  }
-]
+    },
+    {
+      "id": "3",
+      "nombre": "Mini Yoda",
+      "categoria": "star wars",
+      "url": "../assets/img/products/first-row/3.png",
+      "precio": 60,
+      "descripcion": "Figura coleccionable de Yoda"
+    },
+    {
+      "id": "4",
+      "nombre": "Stromtroopers",
+      "categoria": "star wars",
+      "url": "../assets/img/products/first-row/4.png",
+      "precio": 60,
+      "descripcion": "Figura coleccionable de Stormtroopers"
+    },
+    {
+      "id": "5",
+      "nombre": "Baby Yoda",
+      "categoria": "star wars",
+      "url": "../assets/img/products/first-row/5.png",
+      "precio": 60,
+      "descripcion": "Muñeco de Baby Yoda"
+    },
+    {
+      "id": "6",
+      "nombre": "Kylo",
+      "categoria": "star wars",
+      "url": "../assets/img/products/first-row/6.png",
+      "precio": 60,
+      "descripcion": "Figura coleccionable de Kylo"
+    },
+    {
+      "id": "7",
+      "nombre": "Mando de Xbox Series X",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/1.png",
+      "precio": 60,
+      "descripcion": "Mando clasico de Xbox Series X color blanco"
+    },
+    {
+      "id": "8",
+      "nombre": "PlayStation 5",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/2.png",
+      "precio": 60,
+      "descripcion": "Consola y mando de PlayStation 5"
+    },
+    {
+      "id": "9",
+      "nombre": "Nintendo NES",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/3.png",
+      "precio": 60,
+      "descripcion": "Consola Nintendo NES"
+    },
+    {
+      "id": "10",
+      "nombre": "Nintendo Switch",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/4.png",
+      "precio": 60,
+      "descripcion": "Consola Nintendo Switch"
+    },
+    {
+      "id": "11",
+      "nombre": "Xbox Series X",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/5.png",
+      "precio": 60,
+      "descripcion": "Consola Xbox Series X"
+    },
+    {
+      "id": "12",
+      "nombre": "Game Boy color",
+      "categoria": "consolas",
+      "url": "../assets/img/products/second-row/6.png",
+      "precio": 60,
+      "descripcion": "Consola Game Boy color"
+    },
+    {
+      "id": "13",
+      "nombre": "Remera Atari",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/1.png",
+      "precio": 60,
+      "descripcion": "Remera de la empresa Atari"
+    },
+    {
+      "id": "14",
+      "nombre": "Remera SNES",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/2.png",
+      "precio": 60,
+      "descripcion": "Remera de la consola SNES"
+    },
+    {
+      "id": "15",
+      "nombre": "Muñeco de Sonic",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/3.png",
+      "precio": 60,
+      "descripcion": "Muñeco del personaje Sonic"
+    },
+    {
+      "id": "16",
+      "nombre": "Reloj despertador",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/4.png",
+      "precio": 60,
+      "descripcion": "Reloj despertador"
+    },
+    {
+      "id": "17",
+      "nombre": "Lentes de Realidad Virtual",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/5.png",
+      "precio": 60,
+      "descripcion": "Lentes de Realidad Virtual de PlayStation"
+    },
+    {
+      "id": "18",
+      "nombre": "Muñeco de Pikachu",
+      "categoria": "diversos",
+      "url": "../assets/img/products/third-row/6.png",
+      "precio": 60,
+      "descripcion": "Muñeco del famoso personaje Pikachu"
+    }
+  ]
 }

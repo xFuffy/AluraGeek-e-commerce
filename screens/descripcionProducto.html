@@ -8,7 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/bases.css">
-    <link rel="stylesheet" href="../assets/css/agregarProducto.css">
+    <link rel="stylesheet" href="../assets/css/descripcionProducto.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <title>AluraGeek - Agregar Producto</title>
+    <title>AluraGeek - Detaller Producto</title>
 
 
 </head>
@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="container__logo-y-barrabusqueda">
                     <div class="navbar__logo">
-                        <a href="productos.html"><img src="../assets/img/Logo.png" alt="logo" class="logo"></a>
+                        <a href="home.html"><img src="../assets/img/Logo.png" alt="logo" class="logo"></a>
                     </div>
                     <div class="navbar__barra-busqueda">
                         <form action="" class="navbar__form">
@@ -50,27 +50,9 @@
         </nav>
     </header>
 
-    <section class="agregarProducto">
-        <div class="agregarProducto__container">
-            <h3 class="agregarProducto__title">Agregar nuevo producto</h3>
-            <form action="" method="" class="formulario" data-addForm>
-                <div class="input__container">
-                    <input name="url" id="url" placeholder="URL de la imagen" type="url" data-url class="url__input" required>
-                </div>
-                <div class="input__container">
-                    <input name="categoria" id="categoria" placeholder="Categoria" type="text" data-categoria class="categoria__input" required>
-                </div>
-                <div class="input__container">
-                    <input name="nombre-prod" id="nombre-prod" placeholder="Nombre del producto" type="text" data-nombreProd class="nombre-prod__input" required>
-                </div>
-                <div class="input__container">
-                    <input name="precio" id="precio" placeholder="Preico del producto" type="number" data-precio class="precio__input" required>
-                </div>  
-                <div class="input__container">
-                    <input name="descripcion" id="descripcion" placeholder="Descripcion del producto" type="text" data-descripcion class="descripcion__input" required>
-                </div>
-                <button type="submit" class="btn__agregarProducto">Agregar producto</button> 
-            </form>
+    <section class="detalleProducto">
+        <div class="detalleProducto__container" data-detalleProducto>
+            
         </div>
     </section>
 
@@ -123,8 +105,8 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!--JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="../validations/home.js"></script>
-    <script type="module" src="../controllers/agregarProducto-controller.js"></script>
+    <script type="module" src="../controllers/descripcionProducto-controller.js"></script>
+
 </body>
 </html>

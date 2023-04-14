@@ -8,7 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/bases.css">
-    <link rel="stylesheet" href="../assets/css/agregarProducto.css">
+    <link rel="stylesheet" href="../assets/css/editarProducto.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <title>AluraGeek - Agregar Producto</title>
+    <title>AluraGeek - Editar Producto</title>
 
 
 </head>
@@ -50,10 +50,10 @@
         </nav>
     </header>
 
-    <section class="agregarProducto">
-        <div class="agregarProducto__container">
-            <h3 class="agregarProducto__title">Agregar nuevo producto</h3>
-            <form action="" method="" class="formulario" data-addForm>
+    <section class="editarProducto">
+        <div class="editarProducto__container">
+            <h3 class="editarProducto__title">Editar producto</h3>
+            <form action="" method="" class="formulario" data-editForm>
                 <div class="input__container">
                     <input name="url" id="url" placeholder="URL de la imagen" type="url" data-url class="url__input" required>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="input__container">
                     <input name="descripcion" id="descripcion" placeholder="Descripcion del producto" type="text" data-descripcion class="descripcion__input" required>
                 </div>
-                <button type="submit" class="btn__agregarProducto">Agregar producto</button> 
+                <button class="btn__editarProducto" type="submit">Editar producto</button> 
             </form>
         </div>
     </section>
@@ -123,8 +123,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!--JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="../validations/home.js"></script>
-    <script type="module" src="../controllers/agregarProducto-controller.js"></script>
+    <script type="module" src="../controllers/actualizarProducto-controller.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@ const mostrarAllProductos = (id, nombre, categoria, url, precio, descripcion) =>
         <div class="item__price">
             <p>$${precio}</p>
         </div>
-        <a href="">
+        <a href="descripcionProducto.html?id=${id}">
             <div class="item__description">Ver producto</div>
         </a>
     `;
