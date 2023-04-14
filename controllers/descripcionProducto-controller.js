@@ -1,37 +1,5 @@
 import { productServices } from "../service/product-service.js";      
 
-// const obtenerInformacion = async () => {
-//     const url = new URL(window.location);
-//     const id = url.searchParams.get("id");
-
-//     if(id == null){
-//         window.location.href = "./productos.html";
-//     }
-
-//     const imagenProducto = document.querySelector("[data-imagenProducto]");
-//     const categoria = document.querySelector("[data-categoria]");
-//     const nombre = document.querySelector("[data-nombre]");
-//     const precio = document.querySelector("[data-precio]");
-//     const descripcion = document.querySelector("[data-descripcion]");
-
-//     try{
-//         const producto = await productServices.detalleProducto(id);
-//         if(producto.nombre && producto.categoria && producto.url && producto.precio && producto.descripcion){
-//             imagenProducto.value = producto.url;
-//             categoria.value = producto.categoria;
-//             nombre.value = producto.nombre;
-//             precio.value = producto.precio;
-//             descripcion.value = producto.descripcion;
-//         } else{
-//             throw new Error();
-//         }
-//     } catch(error){
-//         window.location.href = "./productos.html"
-//     }
-// };
-
-// obtenerInformacion();
-
 const mostrarDetalle = (id, nombre, categoria, url, precio, descripcion) => {
     const linea = document.createElement("div");
     linea.classList.add("detalleProducto__container");

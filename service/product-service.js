@@ -8,12 +8,12 @@
 
 //Fetch API
 
-const listaProductos = () => fetch("http://localhost:3000/productos").then(respuesta => respuesta.json()); 
+const listaProductos = () => fetch("https://alurageek-e-commerce.onrender.com/productos").then(respuesta => respuesta.json()); 
 
-const obtenerProducto = async () => await fetch("http://localhost:3000/productos").then(res => res.json());
+const obtenerProducto = async () => await fetch("https://alurageek-e-commerce.onrender.com/productos").then(res => res.json());
 
 const crearProducto = async (nombre, categoria, url, precio, descripcion) => {
-    return await fetch("http://localhost:3000/productos", {
+    return await fetch("https://alurageek-e-commerce.onrender.com/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -23,14 +23,14 @@ const crearProducto = async (nombre, categoria, url, precio, descripcion) => {
 };
 
 const eliminarProducto = (id) => {                          
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://alurageek-e-commerce.onrender.com/productos/${id}`, {
         method: "DELETE",
     });
 };
 
 const actualizarProducto = async (nombre, categoria, url, precio, descripcion, id) => {
     try {
-        const respuesta = await fetch(`http://localhost:3000/productos/${id}`, {
+        const respuesta = await fetch(`https://alurageek-e-commerce.onrender.com/productos/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -43,9 +43,9 @@ const actualizarProducto = async (nombre, categoria, url, precio, descripcion, i
     }
 };
 
-const buscarProducto = async (nombre) => await fetch(`http://localhost:3000/productos?nombre_like=${nombre}`).then(respuesta => respuesta.json());
+const buscarProducto = async (nombre) => await fetch(`https://alurageek-e-commerce.onrender.com/productos?nombre_like=${nombre}`).then(respuesta => respuesta.json());
 
-const detalleProducto = async (id) => await fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json()); 
+const detalleProducto = async (id) => await fetch(`https://alurageek-e-commerce.onrender.com/productos/${id}`).then(respuesta => respuesta.json()); 
 
 export const productServices = {
     listaProductos,
