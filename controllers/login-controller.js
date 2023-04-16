@@ -21,7 +21,7 @@ formulario.addEventListener("submit", async (event) => {
     .then((users) => {
         const usuarioEncontrado = users.find(user => user.username === nombre && user.password === contraseña);
         if(usuarioEncontrado){
-            sessionStorage.setItem("user", JSON.stringify(usuarioEncontrado));
+            localStorage.setItem("user", JSON.stringify(usuarioEncontrado));
             location.href = "./screens/home.html" //?id="+usuarioEncontrado.id;
         } else{
             alert("Usuario no encontrado. Por favor pruebe nuevamente");

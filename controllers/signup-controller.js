@@ -14,7 +14,7 @@ formulario.addEventListener("submit", (evento) => {
         userServices.crearUsuario(username, email, password).then( () => {
             const usuarioCreado = {username, email};
             console.log(usuarioCreado);
-            sessionStorage.setItem("user", JSON.stringify(usuarioCreado));
+            localStorage.setItem("user", JSON.stringify(usuarioCreado));
             location.href = "home.html";
         });
     } else {
